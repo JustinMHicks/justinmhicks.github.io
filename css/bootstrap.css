@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/*Custom CSS from Justin*/
+
+.fa fa-twitter fa-stack-1x fa-inverse{
+ href="https://twitter.com/Justin_In_Hicks"   
+}
+
+/* END */
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
