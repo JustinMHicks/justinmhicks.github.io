@@ -39,7 +39,7 @@
     
     
 </style>
-    
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -55,23 +55,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Portfolio</a>
+                <a class="navbar-brand tada" href="index.html">Portfolio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class="tada" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="tada" href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="archive.html">Archive</a>
+                        <a class="tada" href="archive.html">Archive</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a class="tada" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -219,7 +219,13 @@
             </div>
         </div>
     </footer>
-
+    
+<script>
+$('.tada').hover(
+       function(){ $(this).addClass('animated infinite tada') },
+       function(){ $(this).removeClass('animated infinite tada') }
+)
+</script>
     <!-- jQuery -->
     <script src="js/custom.js"> </script>
 
